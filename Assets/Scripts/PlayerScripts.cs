@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
-    public float moveSpeed = 6.0f;
+    public float moveSpeed = 10.0f;
     public float jumpForce = 5.0f;
 
     [Header("Ground Check")]
