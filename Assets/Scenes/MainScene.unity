@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 1045977}
   - component: {fileID: 1045976}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: demo wall 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 1765867}
   - component: {fileID: 1765866}
   m_Layer: 0
-  m_Name: Cube (21)
+  m_Name: innerwall 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 48614732}
   - component: {fileID: 48614731}
   m_Layer: 0
-  m_Name: Cube (8)
+  m_Name: outerwall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -470,7 +470,7 @@ GameObject:
   - component: {fileID: 63142250}
   - component: {fileID: 63142249}
   m_Layer: 0
-  m_Name: Trap (3)
+  m_Name: kill wall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -609,7 +609,7 @@ GameObject:
   - component: {fileID: 204538807}
   - component: {fileID: 204538806}
   m_Layer: 0
-  m_Name: Trap (20)
+  m_Name: jump 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -723,7 +723,7 @@ GameObject:
   - component: {fileID: 239248340}
   - component: {fileID: 239248339}
   m_Layer: 0
-  m_Name: Trap (12)
+  m_Name: kill wall 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -864,7 +864,7 @@ GameObject:
   - component: {fileID: 281439708}
   - component: {fileID: 281439707}
   m_Layer: 0
-  m_Name: Trap (10)
+  m_Name: kill wall 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1003,7 +1003,7 @@ GameObject:
   - component: {fileID: 282974554}
   - component: {fileID: 282974553}
   m_Layer: 0
-  m_Name: Trap (16)
+  m_Name: jump 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1115,7 +1115,7 @@ GameObject:
   - component: {fileID: 324939968}
   - component: {fileID: 324939967}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: demo wall 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1227,7 +1227,7 @@ GameObject:
   - component: {fileID: 343231690}
   - component: {fileID: 343231689}
   m_Layer: 0
-  m_Name: Trap (17)
+  m_Name: jump 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1339,7 +1339,7 @@ GameObject:
   - component: {fileID: 344247680}
   - component: {fileID: 344247679}
   m_Layer: 0
-  m_Name: Cube (9)
+  m_Name: outerwall 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1451,7 +1451,7 @@ GameObject:
   - component: {fileID: 369513620}
   - component: {fileID: 369513619}
   m_Layer: 0
-  m_Name: Cube (20)
+  m_Name: innerwall 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1668,8 +1668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0634929770c375f47ac83bd385f91b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 20
-  jumpForce: 5
+  moveSpeed: 30
+  jumpForce: 3
   groundMask:
     serializedVersion: 2
     m_Bits: 0
@@ -1721,7 +1721,7 @@ GameObject:
   - component: {fileID: 421854216}
   - component: {fileID: 421854215}
   m_Layer: 0
-  m_Name: Trap (13)
+  m_Name: kill wall 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1860,7 +1860,7 @@ GameObject:
   - component: {fileID: 482754874}
   - component: {fileID: 482754873}
   m_Layer: 0
-  m_Name: Cube (23)
+  m_Name: innerwall 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1974,7 +1974,7 @@ GameObject:
   - component: {fileID: 597174046}
   - component: {fileID: 597174045}
   m_Layer: 0
-  m_Name: Trap (5)
+  m_Name: kill wall 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2114,7 +2114,7 @@ GameObject:
   - component: {fileID: 598845215}
   - component: {fileID: 598845214}
   m_Layer: 0
-  m_Name: Trap (23)
+  m_Name: finish wall 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2147,7 +2147,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2219,7 +2219,7 @@ Transform:
   m_GameObject: {fileID: 598845213}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -117.2, y: 1.1803477, z: 201.1}
+  m_LocalPosition: {x: -116.8, y: 1.1803477, z: 203.2}
   m_LocalScale: {x: 26.073755, y: 10, z: 7.4986}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2238,7 +2238,7 @@ GameObject:
   - component: {fileID: 656771823}
   - component: {fileID: 656771822}
   m_Layer: 0
-  m_Name: Cube (25)
+  m_Name: innerwall 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2478,7 +2478,7 @@ GameObject:
   - component: {fileID: 684492365}
   - component: {fileID: 684492364}
   m_Layer: 0
-  m_Name: Trap (21)
+  m_Name: finish wall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2511,7 +2511,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2584,7 +2584,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -126.1, y: 1.1803477, z: 216.1}
-  m_LocalScale: {x: 37.80997, y: 10, z: 7.4986}
+  m_LocalScale: {x: 28.3174, y: 10, z: 7.4986}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2716,118 +2716,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!1 &750767943
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 750767947}
-  - component: {fileID: 750767946}
-  - component: {fileID: 750767945}
-  - component: {fileID: 750767944}
-  m_Layer: 0
-  m_Name: Trap (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &750767944
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750767943}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &750767945
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750767943}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: edd5d505cd66de94f87b168d92cba15d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &750767946
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750767943}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &750767947
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750767943}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -87.8, y: 0, z: 103.1}
-  m_LocalScale: {x: 22.320307, y: 1.1306002, z: 7.4986}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &795900306
 GameObject:
   m_ObjectHideFlags: 0
@@ -2841,7 +2729,7 @@ GameObject:
   - component: {fileID: 795900308}
   - component: {fileID: 795900307}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: demo plane 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2954,7 +2842,7 @@ GameObject:
   - component: {fileID: 796366925}
   - component: {fileID: 796366924}
   m_Layer: 0
-  m_Name: Cube (17)
+  m_Name: innerwall 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3066,7 +2954,7 @@ GameObject:
   - component: {fileID: 796854941}
   - component: {fileID: 796854940}
   m_Layer: 0
-  m_Name: Trap (15)
+  m_Name: jump 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3178,7 +3066,7 @@ GameObject:
   - component: {fileID: 819158358}
   - component: {fileID: 819158357}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: demo wall 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3292,7 +3180,7 @@ GameObject:
   - component: {fileID: 827785019}
   - component: {fileID: 827785018}
   m_Layer: 0
-  m_Name: Trap (4)
+  m_Name: moving kill wall 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3413,7 +3301,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 22.1, y: 6, z: 162.3}
-  m_LocalScale: {x: 11.59304, y: 11, z: 15.992434}
+  m_LocalScale: {x: 11.59304, y: 11, z: 20.31039}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3431,7 +3319,7 @@ GameObject:
   - component: {fileID: 878332793}
   - component: {fileID: 878332792}
   m_Layer: 0
-  m_Name: Cube (10)
+  m_Name: demo wall 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3544,7 +3432,7 @@ GameObject:
   - component: {fileID: 932686045}
   - component: {fileID: 932686044}
   m_Layer: 0
-  m_Name: Trap (22)
+  m_Name: finish wall 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3577,7 +3465,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3649,7 +3537,7 @@ Transform:
   m_GameObject: {fileID: 932686043}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -117, y: 1.1803477, z: 231.3}
+  m_LocalPosition: {x: -116.8, y: 1.1803477, z: 226.7}
   m_LocalScale: {x: 26.035189, y: 10, z: 7.4986}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3668,7 +3556,7 @@ GameObject:
   - component: {fileID: 952335783}
   - component: {fileID: 952335782}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: demo wall 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3932,7 +3820,7 @@ GameObject:
   - component: {fileID: 1095002628}
   - component: {fileID: 1095002627}
   m_Layer: 0
-  m_Name: Cube (24)
+  m_Name: innerwall 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4045,7 +3933,7 @@ GameObject:
   - component: {fileID: 1127107340}
   - component: {fileID: 1127107339}
   m_Layer: 0
-  m_Name: Plane (3)
+  m_Name: finish plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4151,8 +4039,8 @@ Transform:
   m_GameObject: {fileID: 1127107338}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -111.5, y: 0, z: 216.3}
-  m_LocalScale: {x: 1.7765, y: 1, z: 2.468}
+  m_LocalPosition: {x: -116.5, y: 0, z: 215.9}
+  m_LocalScale: {x: 2.7441595, y: 1, z: 2.468}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4172,7 +4060,7 @@ GameObject:
   - component: {fileID: 1138372824}
   - component: {fileID: 1138372823}
   m_Layer: 0
-  m_Name: Trap (8)
+  m_Name: kill wall 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4311,7 +4199,7 @@ GameObject:
   - component: {fileID: 1163131969}
   - component: {fileID: 1163131968}
   m_Layer: 0
-  m_Name: Cube (27)
+  m_Name: innerwall 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4423,7 +4311,7 @@ GameObject:
   - component: {fileID: 1177482397}
   - component: {fileID: 1177482396}
   m_Layer: 0
-  m_Name: Cube (14)
+  m_Name: innerwall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4535,7 +4423,7 @@ GameObject:
   - component: {fileID: 1305963603}
   - component: {fileID: 1305963602}
   m_Layer: 0
-  m_Name: Cube (11)
+  m_Name: outerwall 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4648,7 +4536,7 @@ GameObject:
   - component: {fileID: 1352596094}
   - component: {fileID: 1352596098}
   m_Layer: 0
-  m_Name: Trap
+  m_Name: start wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4772,7 +4660,7 @@ GameObject:
   - component: {fileID: 1374433994}
   - component: {fileID: 1374433993}
   m_Layer: 0
-  m_Name: Cube (26)
+  m_Name: innerwall 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4886,7 +4774,7 @@ GameObject:
   - component: {fileID: 1409039436}
   - component: {fileID: 1409039441}
   m_Layer: 0
-  m_Name: Trap (2)
+  m_Name: moving kill wall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5025,7 +4913,7 @@ GameObject:
   - component: {fileID: 1417505814}
   - component: {fileID: 1417505813}
   m_Layer: 0
-  m_Name: Trap (19)
+  m_Name: jump 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5266,7 +5154,7 @@ GameObject:
   - component: {fileID: 1478317902}
   - component: {fileID: 1478317901}
   m_Layer: 0
-  m_Name: Trap (7)
+  m_Name: kill wall 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5405,7 +5293,7 @@ GameObject:
   - component: {fileID: 1576084048}
   - component: {fileID: 1576084047}
   m_Layer: 0
-  m_Name: Cube (12)
+  m_Name: outerwall 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5517,7 +5405,7 @@ GameObject:
   - component: {fileID: 1579456571}
   - component: {fileID: 1579456570}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: demo wall 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5631,7 +5519,7 @@ GameObject:
   - component: {fileID: 1579890972}
   - component: {fileID: 1579890971}
   m_Layer: 0
-  m_Name: Trap (11)
+  m_Name: kill wall 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5772,7 +5660,7 @@ GameObject:
   - component: {fileID: 1601783486}
   - component: {fileID: 1601783485}
   m_Layer: 0
-  m_Name: Trap (6)
+  m_Name: kill wall 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5911,7 +5799,7 @@ GameObject:
   - component: {fileID: 1632998981}
   - component: {fileID: 1632998980}
   m_Layer: 0
-  m_Name: Cube (15)
+  m_Name: innerwall 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6023,7 +5911,7 @@ GameObject:
   - component: {fileID: 1685311168}
   - component: {fileID: 1685311167}
   m_Layer: 0
-  m_Name: Trap (1)
+  m_Name: jump 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6262,7 +6150,7 @@ GameObject:
   - component: {fileID: 1774290878}
   - component: {fileID: 1774290877}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: demo wall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6464,7 +6352,7 @@ GameObject:
   - component: {fileID: 1836562964}
   - component: {fileID: 1836562963}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: demo plane 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6577,7 +6465,7 @@ GameObject:
   - component: {fileID: 1899208252}
   - component: {fileID: 1899208251}
   m_Layer: 0
-  m_Name: Trap (18)
+  m_Name: jump 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6689,7 +6577,7 @@ GameObject:
   - component: {fileID: 1962534684}
   - component: {fileID: 1962534683}
   m_Layer: 0
-  m_Name: Cube (13)
+  m_Name: outerwall 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6801,7 +6689,7 @@ GameObject:
   - component: {fileID: 2057405396}
   - component: {fileID: 2057405395}
   m_Layer: 0
-  m_Name: Cube (22)
+  m_Name: innerwall 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6913,7 +6801,7 @@ GameObject:
   - component: {fileID: 2099084627}
   - component: {fileID: 2099084626}
   m_Layer: 0
-  m_Name: Plane (2)
+  m_Name: main plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7028,7 +6916,7 @@ GameObject:
   - component: {fileID: 2099263418}
   - component: {fileID: 2099263417}
   m_Layer: 0
-  m_Name: Trap (9)
+  m_Name: kill wall 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7183,7 +7071,6 @@ SceneRoots:
   - {fileID: 1899208254}
   - {fileID: 1417505816}
   - {fileID: 204538809}
-  - {fileID: 750767947}
   - {fileID: 1409039440}
   - {fileID: 1763367649}
   - {fileID: 674115119}
